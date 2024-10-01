@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .header {
@@ -346,8 +347,10 @@
     gap: 30px;
 }
 
-.input .message {
+.input textarea {
     height: 150px;
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .input input {
@@ -383,7 +386,8 @@
     font-size: 20px;
     margin-top: 10px;
 }
-.box12{
+
+.box12 {
     background: rgb(255, 250, 250);
     width: 100%;
     height: 100px;
